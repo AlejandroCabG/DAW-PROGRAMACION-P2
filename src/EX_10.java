@@ -12,11 +12,10 @@ public class EX_10 {
         tenistas.put("Federer", "Roger");
         tenistas.put("Nadal", "Rafael");
         tenistas.put("Djokovic", "Novak");
-
-        TreeSet<String> valueSet = new TreeSet<>(tenistas.values());
-        System.out.println("-- Sorted HashMap Values --");
-        for(String str : valueSet) {
-            System.out.println(" Value- " + str);
+        //Creo un objeto TreeSet llamado valor
+        TreeSet<String> valor = new TreeSet<>(tenistas.values());
+        for(String str : valor) {
+            System.out.println(" Valor - " + str);
         }
 
     }

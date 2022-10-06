@@ -1,17 +1,6 @@
 /*8. Escribe un programa que atraviese (itere) un ArrayList usando Lambdas.*/
 
 import java.util.ArrayList;
-
-//Las expresiones lambda son funciones anónimas, es decir, funciones que no necesitan una clase
-/*El operador lambda (->) separa la declaración de parámetros de la declaración del cuerpo de la función.
-        Parámetros:
-        Cuando se tiene un solo parámetro no es necesario utilizar los paréntesis.
-        Cuando no se tienen parámetros, o cuando se tienen dos o más, es necesario utilizar paréntesis.
-        Cuerpo de lambda:
-        Cuando el cuerpo de la expresión lambda tiene una única línea no es necesario utilizar las llaves y no necesitan
-        especificar la clausula return en el caso de que deban devolver valores.
-        Cuando el cuerpo de la expresión lambda tiene más de una línea se hace necesario utilizar las llaves y es necesario
-        incluir la clausula return en el caso de que la función deba devolver un valor .*/
 public class EX_08 {
     public static void main(String[] args) {
         ArrayList<String> tenistas = new ArrayList<String>();
